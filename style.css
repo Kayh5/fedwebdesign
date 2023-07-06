@@ -1,0 +1,105 @@
+@import url ('https://fonts.googleapis.com/css?family=Varela+Round');
+
+[class*="col-"] {
+    width: 100%;
+    padding: 30px;
+    margin: auto;
+}
+
+@media only screen and (min-width: 768px) {
+    [class*="col-"] {
+    float: left;
+    padding: 25px;
+    width: auto;
+    margin: 0;
+    }
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+html body {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+    height: 100%;
+    background-color: gray;
+}
+
+.header {
+    padding: 15px;
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.containerleft ol {
+    margin: 0;
+    padding: 0;
+}
+
+.containerleft {
+    background-color: #272525;
+}
+
+h1 {
+    background-image: url(images/Enschede-centrum.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 30px 0;
+    letter-spacing: 5px;
+    font-size: 40px;
+}
+
+.containerright {
+    background-color: #424242;
+    margin-top: -25px;
+    padding: 5px;
+    width: 100%;
+    border-bottom: 1px solid white;
+}
+
+.containerright img {
+    width: 200px;
+    aspect-ratio: 2/1;
+    float: right;
+    margin-right: 5px;
+    margin-top: -50px;
+}
+
+.containerright2 {
+    background-color: #424242;
+    padding: 5px;
+    width: 100%;
+}
+
+.containerright2 img {
+    width: 200px;
+    aspect-ratio: 2/1;
+    float: right;
+    margin-right: 5px;
+    margin-top: -50px;
+}
+
+.footer {
+    height: 50px;
+    background-color: #272525;
+    height: 50px;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    bottom: -50px;
+}
+
+.row {
+    min-height: 800px;
+}
